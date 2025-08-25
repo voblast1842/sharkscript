@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run SharkScript Lexer",
+            "type": "pwa-node",
+            "request": "launch",
+            "program": "${workspaceFolder}/test.ts",
+            "runtimeExecutable": "deno",
+            "runtimeArgs": [
+                "run",
+                "--unstable",
+                "--allow-read"
+            ],
+            "attachSimplePort": 9229,
+            "console": "integratedTerminal"
+        }
+    ]
+}
