@@ -1,0 +1,9 @@
+def array = {"Get", "Set", "Len", "Arrayed LOL!"};
+def x = 45 + ( foo * bar ) {"Hello", world};
+def y = x / 2 - 10;
+
+def greet = "Hello, World!";
+def message = 'This is a single-quoted string.';
+
+log(greet);
+log(message);
